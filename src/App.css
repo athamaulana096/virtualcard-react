@@ -59,12 +59,16 @@
 }
 
 .card .top .social-buttons button i {
-  font-size: 1rem;
+  font-size: 20px;
   color: #adc0d8;
 }
 
-.card .top .social-buttons button:hover i {
-  color: #fffff9;
+.card .top .social-buttons button.linkedin:hover i {
+  color: #0077b5;
+  transform: scale(1.5);
+}
+.card .top .social-buttons button.github:hover i {
+  color: #6e5494;
   transform: scale(1.5);
 }
 
